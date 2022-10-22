@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 
 let db;
 
@@ -19,7 +19,7 @@ const init = async () => {
         db = connection;
     
         //Display menu
-        
+
     }
 
     catch {
